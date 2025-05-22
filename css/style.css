@@ -1,0 +1,117 @@
+:root {
+    --Grey-100: #F4F3F8;
+    --Grey-300: #909090;
+    --Grey-900: #333333;
+    --Pink-500: #DC0155;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+span {
+    color: var(--Pink-500);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 10rem;
+}
+
+.title,
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
+h3 {
+    font-weight: 500;
+}
+.text {
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 6rem;
+}
+/* header */
+.rosa-fiap {
+    color: var(--Pink-500);
+    font-weight: 600;
+    font-size: 3rem
+    
+}
+.header-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 16rem;
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    & a{
+        color: var(--Grey-900);
+    }
+}
+/* fim-header */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 16rem;
+
+    & div{
+        max-width: 40%;
+
+        & a {
+            padding: 1.5rem 2.5rem;
+            color: var(--Grey-100);
+            font-weight: 300;
+            font-size: 1.5rem;
+            border-radius: 3.2rem;
+            background-color: var(--Pink-500);
+        }
+
+        & h1 {
+            font-size: 7rem;
+            font-weight: 600;
+            color: var(--Grey-900);
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            font-size: 10rem;
+        }
+
+        & h2 {
+            padding-top: 12rem;
+            font-size: 4rem;
+            font-weight: 300;
+            color: var(--Grey-900);
+        }
+    }
+    & img {
+        max-width: 90rem;
+        max-height: 60rem;
+    }
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 16rem;
+    gap: 10rem;
+
+    & div {
+        max-width: 25rem;
+        
+        & h3 {
+            padding-top: 1rem;
+        }
+    }
+}
